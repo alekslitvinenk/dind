@@ -12,3 +12,6 @@ Nowadays, containerised solutions are extremely widespread and Docker has firmly
 ## 📺 Video Guide
 
 ## 🚀 Quick Start
+```bash
+docker run --privileged -it alekslitvinenk/dind
+```
