@@ -1,3 +1,8 @@
+![Build Status](http://cicd.dockovpn.io/build/dind)
+![Build Time](http://cicd.dockovpn.io/built/dind)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alekslitvinenk/dind.svg)](https://hub.docker.com/r/alekslitvinenk/dind/)
+![GitHub](https://img.shields.io/github/license/alekslitvinenk/dind)
+
 # 💎dind
 Docker in Docker. The working solution
 
