@@ -3,7 +3,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/alekslitvinenk/dind.svg)](https://hub.docker.com/r/alekslitvinenk/dind/)
 ![GitHub](https://img.shields.io/github/license/alekslitvinenk/dind)
 
-# 💎dind
+# 💎 DinD
 Docker in Docker. The working solution
 
 ### GitHub repo:
