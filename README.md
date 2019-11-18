@@ -17,6 +17,21 @@ Nowadays, containerised solutions are extremely widespread and Docker has firmly
 ## 📺 Video Guide
 
 ## 🚀 Quick Start
-```bash
-docker run --privileged -it alekslitvinenk/dind
-```
+1. Run dockerized Docker container:
+    ```bash
+    docker run --privileged -it \
+    -p <hostPort-1>:<containerPort-1>
+    ...
+    -p <hostPort-n>:<containerPort-n>
+    alekslitvinenk/dind
+    ```
+    ℹ️ **Note:** Make sure to bind all ports your child containers might need.
+
+2. Run child container:
+    ```bash
+    docker run <docker-image>
+    ```
+    Your run container just like you do this on your host machine, some limitations may apply though (see note below)<br>
+    ℹ️ **Note:** Bind mounting directories isn't suported at the moment.
+  
+ 3. Repeat **step 2** as many times as you need.
