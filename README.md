@@ -1,3 +1,5 @@
+<p align=center><img src="https://alekslitvinenk.github.io/dind/DinD-NewLogo.png"></p><br>
+
 ![Build Status](http://cicd.dockovpn.io/build/dind)
 ![Build Time](http://cicd.dockovpn.io/built/dind)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alekslitvinenk/dind.svg)](https://hub.docker.com/r/alekslitvinenk/dind/)
