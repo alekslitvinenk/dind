@@ -17,15 +17,15 @@ https://hub.docker.com/r/alekslitvinenk/dind
 Nowadays, containerised solutions are extremely widespread and Docker has firmly occupied the leader place among them. Often, the necessity to keep all the generated files and intermediary containers in one single place and clean the cache every time the parent container was stopped. To acheive this goal, developers used to manually or by scripting clean all the garbage with `docker image purge -a` and `docker container purge`. When you need to perform these operations quite often and especially when you need to clean up not everything, but only some images and containers linked with some other one, you might think about coming up with some scritable solution. But these home-made solutions often come with a gotcha -- they are error prone and accidentally you can delete conteiner wihci wsn't supposed to be deleted with all its data. To keep all the intermediary containers together and delete them at once, you can employ Docker-in-Docker (dind) solution.
 
 ## 📺 Video Guide
-<p align=center><a href=""><img src="https://alekslitvinenk.github.io/docker-openvpn/assets/img/video-cover-play.png"></a></p><br>
+<p align=center><a href="https://youtu.be/s8AK55jjUjQ"><img src="https://alekslitvinenk.github.io/docker-openvpn/assets/img/video-cover-play.png"></a></p><br>
 
 ## 🚀 Quick Start
 1. Run dockerized Docker container:
     ```bash
     docker run --privileged -it \
-    -p <hostPort-1>:<containerPort-1>
+    -p <hostPort-1>:<containerPort-1> \
     ...
-    -p <hostPort-n>:<containerPort-n>
+    -p <hostPort-n>:<containerPort-n> \
     alekslitvinenk/dind
     ```
     ℹ️ **Note:** Make sure to bind all ports your child containers might need.
