@@ -1,5 +1,10 @@
 <p align=center><img src="https://alekslitvinenk.github.io/dind/DinD-NewLogo.png"></p><br>
 
+<p align="center">
+<a href="https://github.com/alekslitvinenk/dind/blob/master/README.md">[English]</a>
+<a href="https://github.com/alekslitvinenk/dind/blob/master/docs/README_RU.md">[Русский]</a>
+<br>
+
 ![Build Status](http://cicd.dockovpn.io/build/dind)
 ![Build Time](http://cicd.dockovpn.io/built/dind)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alekslitvinenk/dind.svg)](https://hub.docker.com/r/alekslitvinenk/dind/)
